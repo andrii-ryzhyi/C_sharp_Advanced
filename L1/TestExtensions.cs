@@ -6,9 +6,11 @@ using System.Threading.Tasks;
 
 namespace L1
 {
-    public interface ITest
+    public static class TestExtensions
     {
-        string Color { get; set; }
-        void DoWork();
+        public static void Add(this ref int i, int value)
+        {
+            i += value;
+        }
     }
 }
