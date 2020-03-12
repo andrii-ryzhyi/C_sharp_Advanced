@@ -6,8 +6,8 @@ using System.Threading.Tasks;
 
 namespace L1
 {
-    interface ITest2
+    interface ISportCar98
     {
-        void DoWork();
+        void Fill(int amount);
     }
 }

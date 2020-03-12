@@ -6,11 +6,10 @@ using System.Threading.Tasks;
 
 namespace L1
 {
-    public static class TestExtensions
+    public interface ISportCar95
     {
-        public static void Add(this ref int i, int value)
-        {
-            i += value;
-        }
+        int Power { get; set; }
+        void Fill(int amount);
+        
     }
 }
